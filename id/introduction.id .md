@@ -30,13 +30,12 @@ Ouput :
 
 ![RADHI](https://github.com/uin-unit/docs-html/blob/main/images/html-home.png)
 
-
-Deklarasi <!DOCTYPE html> mendefinisikan bahwa dokumen ini adalah dokumen HTML5
+Deklarasi < !DOCTYPE html > mendefinisikan bahwa dokumen ini adalah dokumen HTML5
 Elemen <html> adalah elemen akar halaman HTML
 Elemen <head> berisi informasi meta tentang halaman HTML
 Elemen <title> menentukan judul untuk halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman)
-Elemen <body> mendefinisikan isi dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll. Elemen <h1> mendefinisikan judul besar
-Elemen <p> mendefinisikan sebuah paragraf
+Elemen < body > mendefinisikan isi dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll. Elemen < h1 > mendefinisikan judul besar
+Elemen < p > mendefinisikan sebuah paragraf
 
 Struktur Halaman HTML
 Di bawah ini adalah visualisasi struktur halaman HTML:
