@@ -38,3 +38,5 @@ Elemen <p> mendefinisikan sebuah paragraf
 
 Struktur Halaman HTML
 Di bawah ini adalah visualisasi struktur halaman HTML:
+
+![radhi](https://github.com/uin-unit/docs-html/blob/main/images/html-introduction.png)
