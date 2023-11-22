@@ -23,3 +23,15 @@ Contoh :
 ```sh
 <img src="img_girl.jpg" style="width:100%;">
 ```
+Perhatikan bahwa pada contoh di atas, gambar dapat diperbesar menjadi lebih besar dari ukuran aslinya. Solusi yang lebih baik, dalam banyak kasus, adalah dengan menggunakan properti max-width.
+Menggunakan Properti max-width
+Jika properti max-width diatur ke 100%, gambar akan diperkecil jika perlu, namun jangan pernah diperbesar hingga lebih besar dari ukuran aslinya:
+
+Contoh : 
+```sh
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
+```
+Tampilkan Gambar Berbeda Tergantung Lebar Browser
+Elemen HTML <picture> memungkinkan Anda menentukan gambar berbeda untuk ukuran jendela browser berbeda.
+Ubah ukuran jendela browser untuk melihat bagaimana gambar di bawah berubah tergantung pada lebarnya:
+Contoh : 
