@@ -22,4 +22,4 @@ Dalam HTML ada beberapa elemen semantik yang dapat digunakan untuk mendefinisika
 - <  section  >
 - <  summary  >
 - <  time  >
-- 
+- ! ( https://github.com/uin-unit/docs-html/blob/main/images/element.gif )
