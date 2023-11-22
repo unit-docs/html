@@ -117,3 +117,5 @@ ctx.strokeText("Hello World", 10, 50);
 </script>
 ```
 
+**Menggambar Gradien Linier**
+
