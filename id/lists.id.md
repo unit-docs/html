@@ -72,7 +72,6 @@ Contoh :
 </dl>
 ```
 ![list-html](https://github.com/uin-unit/docs-html/blob/main/images/list-html.png)
-
 ## Daftar Tidak Berurutan HTML
 
 Tag HTML `<ul>` mendefinisikan daftar tidak berurutan (berpoin).
@@ -209,3 +208,91 @@ Ringkasan Bab
 - Gunakan properti CSS float:left untuk menampilkan daftar secara horizontal
 
 ![list-html2](https://github.com/uin-unit/docs-html/blob/main/images/list-html2.png)
+
+# Daftar Urutan HTML
+
+Tag HTML <ol> mendefinisikan daftar yang diurutkan. Daftar yang diurutkan dapat berupa angka atau abjad.
+
+## Daftar HTML yang dipesan
+
+Daftar yang diurutkan dimulai dengan tag <ol>. Setiap item daftar dimulai dengan tag <li>.
+Item daftar akan ditandai dengan angka secara default:
+Contoh : 
+```sh
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+## Daftar HTML yang Diurutkan - Atribut Tipe
+
+Atribut type dari tag `<ol>`, mendefinisikan tipe penanda item daftar:
+![list-html3](https://github.com/uin-unit/docs-html/blob/main/images/list-html3.png)
+
+Numbers:
+```sh
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+Uppercase Letters:
+```sh
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+Lowercase Letters:
+```sh
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+Uppercase Roman Numbers:
+```sh
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+```
+Lowercase Roman Numbers:
+```sh
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+## Penghitungan Daftar Kontrol
+
+Secara default, daftar yang diurutkan akan mulai menghitung dari 1. Jika Anda ingin mulai menghitung dari angka tertentu, Anda dapat menggunakan atribut start:
+Contoh : 
+```sh
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+## Daftar HTML Bersarang
+
+Daftar dapat disarangkan (daftar di dalam daftar):
+Contoh : 
+```sh
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+```
