@@ -125,3 +125,87 @@ Contoh :  - Square
   <li>Milk</li>
 </ul>
 ```
+Contoh :  - None
+```sh<ul style="list-style-type:none;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+```
+
+## Daftar HTML Bersarang
+
+Daftar dapat disarangkan (daftar di dalam daftar):
+Contoh : 
+```sh
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+```
+Catatan: Item daftar (`<li>`) dapat berisi daftar baru, dan elemen HTML lainnya, seperti gambar dan tautan, dll.
+
+## Daftar Horisontal dengan CSS
+
+Daftar HTML dapat ditata dengan berbagai cara dengan CSS.
+Salah satu cara yang populer adalah menata daftar secara horizontal, untuk membuat menu navigasi:
+
+Contoh : 
+```sh
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+```
+Ringkasan Bab
+
+- Gunakan elemen HTML `<ul>` untuk mendefinisikan daftar tidak berurutan
+- Gunakan properti tipe gaya daftar CSS untuk menentukan penanda item daftar
+- Gunakan elemen HTML `<li>` untuk mendefinisikan item daftar
+- Daftar dapat disarangkan
+- Item daftar dapat berisi elemen HTML lainnya
+- Gunakan properti CSS float:left untuk menampilkan daftar secara horizontal
+
+![list-html2](https://github.com/uin-unit/docs-html/blob/main/images/list-html2.png)
