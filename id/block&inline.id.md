@@ -69,10 +69,11 @@ Berikut adalah elemen inline dalam HTML:
 Catatan: Elemen sebaris tidak boleh berisi elemen tingkat blok!
 
 
-## Elemen Tingkat Blok
+## Elemen `<div>`
 Elemen tersebut `<div>` sering digunakan sebagai wadah untuk elemen HTML lainnya.
 
 Elemen tersebut `<div>` tidak memiliki atribut yang diperlukan, tetapi style, class dan id bersifat umum.
+
 Ketika digunakan bersama dengan CSS, `<div>` elemen tersebut dapat digunakan untuk menata blok konten:
 
 Contoh : 
@@ -84,24 +85,38 @@ Contoh :
 </div>
 ```
 
+
 ## Elemen `<span>`
+
 Elemen `<span>` adalah wadah sebaris yang digunakan untuk menandai bagian teks, atau bagian dokumen.
-Elemen tersebut <span>tidak memiliki atribut yang diperlukan, tetapi style, classdan idbersifat umum.
+
+Elemen tersebut `<span>` tidak memiliki atribut yang diperlukan, tetapi style, classdan idbersifat umum.
+
 Ketika digunakan bersama dengan CSS, <span>elemen tersebut dapat digunakan untuk menata bagian teks:
-Contoh : 
+
+
+Contoh :
+```sh
 <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
-Ringkasan Bab
-Ada dua nilai tampilan: blok dan sebaris
-Elemen tingkat blok selalu dimulai pada baris baru dan menggunakan lebar penuh yang tersedia
-Elemen sebaris tidak dimulai pada baris baru dan hanya menggunakan lebar sebanyak yang diperlukan
-Elemen ini <div>merupakan level blok dan sering digunakan sebagai wadah untuk elemen HTML lainnya
-Elemen <span>adalah wadah sebaris yang digunakan untuk menandai bagian teks, atau bagian dokumen
-Tag HTML
-Tag
-Keterangan
-<div>
-Mendefinisikan bagian dalam blok (tingkat blok)
-<span>
-Mendefinisikan bagian dalam blok (sebaris)
+```
+
+## Ringkasan Bab
+
+- Ada dua nilai tampilan: blok dan sebaris
+
+- Elemen tingkat blok selalu dimulai pada baris baru dan menggunakan lebar penuh yang tersedia
+
+- Elemen sebaris tidak dimulai pada baris baru dan hanya menggunakan lebar sebanyak yang diperlukan
+
+- Elemen ini `<div>` merupakan level blok dan sering digunakan sebagai wadah untuk elemen HTML lainnya
+
+- Elemen `<span>` adalah wadah sebaris yang digunakan untuk menandai bagian teks, atau bagian dokumen
+
+## Tag HTML
+
+| Tag | Deskripsi |
+| ----------- | ----------- |
+| `<div>` | Mendefinisikan bagian dalam blok (tingkat blok) |
+| `<span>` | Mendefinisikan bagian dalam blok (sebaris) |
 
 
