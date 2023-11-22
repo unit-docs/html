@@ -68,3 +68,39 @@ Main Content
 
 
 Right Content
+
+Contoh : 
+```sh
+<style>
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+```
+## Halaman Web Responsif - Contoh Lengkap
+Halaman web yang responsif akan terlihat bagus di layar desktop besar dan di ponsel kecil.
+## Desain Web Responsif - Kerangka Kerja
+Semua Kerangka CSS populer menawarkan desain responsif.
+Semuanya gratis dan mudah digunakan.
+
+W3.CSS
+
+W3.CSS adalah kerangka kerja CSS modern dengan dukungan untuk desain desktop, tablet, dan seluler secara default.
+
+W3.CSS lebih kecil dan lebih cepat dibandingkan kerangka CSS serupa.
+
+W3.CSS dirancang untuk tidak bergantung pada jQuery atau pustaka JavaScript lainnya.
+
