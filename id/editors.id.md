@@ -26,3 +26,8 @@ Tulis atau salin kode HTML berikut ke Notepad:
 </body>
 </html>
 ```
+
+![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/editors%201.png)
+## Langkah 3: Simpan Halaman HTML
+Simpan file di komputer Anda. Pilih File > Simpan sebagai di menu Notepad.
+Beri nama file "index.htm" dan atur pengkodeannya ke UTF-8 (yang merupakan pengkodean pilihan untuk file HTML).
