@@ -25,7 +25,8 @@ A adalah 65
 B adalah 66
 C adalah 67
 Contoh : 
-`<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
 <body>
@@ -34,7 +35,8 @@ Contoh :
 <p>I will display &#65; &#66; &#67;</p>
 
 </body>
-</html>`
+</html>
+
 Contoh Dijelaskan
 Elemen `<meta charset="UTF-8">` mendefinisikan kumpulan karakter.
 Karakter A, B, dan C ditampilkan dengan angka 65, 66, dan 67.
