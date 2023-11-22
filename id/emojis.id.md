@@ -7,6 +7,6 @@ draft: true
 # Menggunakan Emoji dalam HTML
 
 
-![alt text](emoji1.png)
-![emoji](emoji2.png)
-![emoji](emoji3.pmg)
+![emoji](images/emoji1.png)
+![emoji](images/emoji2.png)
+![emoji](images/emoji3.pmg)
