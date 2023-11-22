@@ -5,7 +5,8 @@ Anda tidak boleh memiliki lebih dari satu elemen dengan id yang sama dalam dokum
 Atribut idmenentukan id unik untuk elemen HTML. Nilai atribut id harus unik dalam dokumen HTML.
 Atribut iddigunakan untuk menunjuk ke deklarasi gaya tertentu dalam style sheet. Itu juga digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan id tertentu.
 Sintaks untuk id adalah: tulis karakter hash (#), diikuti dengan nama id. Lalu, definisikan properti CSS di dalam kurung kurawal {}.
-Dalam contoh berikut kita memiliki <h1>elemen yang menunjuk ke nama id "myHeader". Elemen ini <h1> akan ditata sesuai dengan #myHeader definisi gaya di bagian kepala:
+Dalam contoh berikut kita memiliki `<h1>` elemen yang menunjuk ke nama id "myHeader". 
+Elemen ini `<h1>` akan ditata sesuai dengan #myHeader definisi gaya di bagian kepala:
 Contoh : 
 ```sh
 <!DOCTYPE html>
