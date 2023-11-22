@@ -34,7 +34,15 @@ Contoh :
 
 
 Tampilkan Gambar Berbeda Tergantung Lebar Browser
-Elemen HTML <picture> memungkinkan Anda menentukan gambar berbeda untuk ukuran jendela browser berbeda.
+Elemen HTMl <  picture  > memungkinkan Anda menentukan gambar berbeda untuk ukuran jendela browser berbeda.
 Ubah ukuran jendela browser untuk melihat bagaimana gambar di bawah berubah tergantung pada lebarnya:
 
 Contoh : 
+```sh
+<picture>
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
+```
