@@ -39,7 +39,7 @@ Contoh :
 ```
 Sekarang, simpan file "index.html" dan muat ulang di browser Anda. Tab browser Anda sekarang akan menampilkan gambar favicon Anda di sebelah kiri judul halaman.
 
-Dukungan Format File Favicon
+### Dukungan Format File Favicon
 
 Tabel berikut menunjukkan dukungan format file untuk gambar favicon:
 
