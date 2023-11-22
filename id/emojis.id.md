@@ -7,4 +7,4 @@ draft: true
 # Menggunakan Emoji dalam HTML
 
 
-![alt text]([image.jpg](https://lh3.googleusercontent.com/keep-bbsk/AG3SVnDMg-jo7NhgsqJxBHpYgTpK_YLK637L6r3X_nXAKHJpECvWuwU4ubsquxuqgfziClgSUOefedM9UayJpHzwMrxfgMyPlrKs-64iK93nHet3VlJI=s512)https://lh3.googleusercontent.com/keep-bbsk/AG3SVnDMg-jo7NhgsqJxBHpYgTpK_YLK637L6r3X_nXAKHJpECvWuwU4ubsquxuqgfziClgSUOefedM9UayJpHzwMrxfgMyPlrKs-64iK93nHet3VlJI=s512)
+![alt text]((https://lh3.googleusercontent.com/keep-bbsk/AG3SVnDMg-jo7NhgsqJxBHpYgTpK_YLK637L6r3X_nXAKHJpECvWuwU4ubsquxuqgfziClgSUOefedM9UayJpHzwMrxfgMyPlrKs-64iK93nHet3VlJI=s512)https://lh3.googleusercontent.com/keep-bbsk/AG3SVnDMg-jo7NhgsqJxBHpYgTpK_YLK637L6r3X_nXAKHJpECvWuwU4ubsquxuqgfziClgSUOefedM9UayJpHzwMrxfgMyPlrKs-64iK93nHet3VlJI=s512)
