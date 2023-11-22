@@ -198,7 +198,7 @@ li a:hover {
 </body>
 </html>
 ```
-Ringkasan Bab
+## Ringkasan Bab
 
 - Gunakan elemen HTML `<ul>` untuk mendefinisikan daftar tidak berurutan
 - Gunakan properti tipe gaya daftar CSS untuk menentukan penanda item daftar
@@ -296,3 +296,36 @@ Contoh :
   <li>Milk</li>
 </ol>
 ```
+## Ringkasan Bab
+
+- Gunakan elemen HTML `<ol>` untuk mendefinisikan daftar yang diurutkan
+- Gunakan atribut tipe HTML untuk menentukan tipe penomoran
+- Gunakan elemen HTML `<li>` untuk mendefinisikan item daftar
+- Daftar dapat disarangkan
+- Item daftar dapat berisi elemen HTML lainnya
+![list-html4](https://github.com/uin-unit/docs-html/blob/main/images/list-html4.png)
+
+# Daftar HTML Lainnya
+
+HTML juga mendukung daftar deskripsi.
+
+## Daftar Deskripsi HTML
+
+Daftar deskripsi adalah daftar istilah, dengan deskripsi setiap istilah.
+Tag `<dl>` mendefinisikan daftar deskripsi, tag `<dt>` mendefinisikan istilah (nama), dan tag <dd> menjelaskan setiap istilah:
+Contoh : 
+```sh
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+```
+## Ringkasan Bab
+
+- Gunakan elemen HTML <dl> untuk menentukan daftar deskripsi
+- Gunakan elemen HTML <dt> untuk mendefinisikan istilah deskripsi
+- Gunakan elemen HTML <dd> untuk mendeskripsikan istilah dalam daftar deskripsi
+
+![list-html5](https://github.com/uin-unit/docs-html/blob/main/images/list-html5.png)
