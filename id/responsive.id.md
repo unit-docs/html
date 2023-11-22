@@ -12,3 +12,6 @@ Contoh :
 ```
 Ini akan mengatur area pandang halaman Anda, yang akan memberikan instruksi kepada browser tentang cara mengontrol dimensi dan penskalaan halaman.
 Berikut adalah contoh halaman web tanpa meta tag viewport, dan halaman web yang sama dengan meta tag viewport:
+![radhi](https://github.com/uin-unit/docs-html/blob/main/images/image%20responsif.png)
+
+## Gambar Responsif
