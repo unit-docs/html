@@ -4,8 +4,8 @@ Contoh :
 ![Uploading image.png…]()
 ![HEADING](https://github.com/uin-unit/docs-html/blob/main/images/Screenshot%202023-11-22%20132642.png)
 ## Judul HTML
-Judul HTML didefinisikan dengan tag <h1> hingga <h6>.
-`<h1>` mendefinisikan judul yang paling penting. <h6> mendefinisikan judul yang paling tidak penting.
+Judul HTML didefinisikan dengan tag `<h1>` hingga `<h6>`.
+`<h1>` mendefinisikan judul yang paling penting. `<h6>` mendefinisikan judul yang paling tidak penting.
 Contoh :
 ```sh
 <h1>Heading 1</h1>
