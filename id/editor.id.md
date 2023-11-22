@@ -24,3 +24,12 @@ Editor kode memungkinkan Anda menulis dan mempraktikkan berbagai jenis bahasa ko
 ## Bangun Situs Web yang Kuat
 Anda juga dapat menggunakan editor kode di W3School Spaces untuk membangun situs web frontend atau full-stack dari awal.
 Atau Anda dapat menggunakan 60+ templat yang tersedia dan menghemat waktu:
+
+![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/editor%20%203.png)
+## Bagikan Dengan Dunia
+Host dan publikasikan situs web Anda dalam waktu singkat dengan W3School Spaces.
+Subdomain W3Schools dan sertifikat SSL disertakan secara gratis dengan W3School Spaces. Sertifikat SSL membuat situs web Anda aman dan terlindungi. Ini juga membantu orang memercayai situs web Anda dan mempermudah menemukannya secara online.
+Ingin domain khusus untuk situs web Anda?
+Anda dapat membeli domain atau mentransfer domain yang sudah ada dan menghubungkannya ke ruang Anda.
+## Bagaimana cara kerjanya?
+Mulailah dalam beberapa klik dengan W3School Spaces.
