@@ -30,12 +30,15 @@ Dengan CSS, Anda juga dapat mengubah ukuran, gaya, dan warna batas iframe:
 Contoh : 
 ```sh
 <iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>
+```
 ## Iframe - Target untuk Tautan
 Iframe dapat digunakan sebagai bingkai target untuk sebuah tautan.
 Atribut targetlink harus mengacu pada nameatribut iframe:
 Contoh :
 ```sh
 <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+```
+```sh
 <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
 ```
 ## Ringkasan Bab
