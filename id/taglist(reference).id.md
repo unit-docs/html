@@ -47,86 +47,86 @@ draft: true
 | `<div>` | Mendefinisikan bagian dalam dokumen |
 | `<dl>` | Mendefinisikan daftar deskripsi |
 | `<dt>` | Mendefinisikan istilah/nama dalam daftar deskripsi |
-| `<em>` | Text |
-| `<embed>` | Title |
-| `<fieldset>` | Text |
-| `<figcaption>` | Text |
-| `<figure>` | Title |
-| `<font>` | Text |
-| `<footer>` | Text |
-| `<form>` | Title |
-| `<frame>` | Text |
-| `<frameset>` | Text |
-| `<h1> to <h6>` | Title |
-| `<head>` | Text |
-| `<header>` | Text |
-| `<hgroup>` | Title |
-| `<hr>` | Text |
-| `<html>` | Text |
-| `<i>` | Title |
-| `<iframe>` | Text |
-| `<img>` | Text |
-| `<input>` | Title |
-| `<ins>` | Text |
-| `<kbd>` | Text |
-| `<label>` | Title |
-| `<legend>` | Text |
-| `<li>` | Text |
-| `<link>` | Title |
-| `<main>` | Text |
-| `<map>` | Text |
-| `<mark>` | Title |
-| `<menu>` | Text |
-| `<meta>` | Text |
-| `<meter>` | Title |
-| `<nav>` | Text |
-| `<noframes>` | Text |
-| `<noscript>` | Title |
-| `<object>` | Text |
-| `<ol>` | Text |
-| `<optgroup>` | Title |
-| `<option>` | Text |
-| `<output>` | Text |
-| `<p>` | Title |
-| `<param>` | Text |
-| `<picture>` | Text |
-| `<pre>` | Title |
-| `<progress>` | Text |
-| `<q>` | Text |
-| `<rp>` | Title |
-| `<rt>` | Text |
-| `<ruby>` | Text |
-| `<s>` | Title |
-| `<samp>` | Text |
-| `<script>` | Text |
-| `<search>` | Text |
-| `<section>` | Title |
-| `<select>` | Text |
-| `<small>` | Text |
-| `<source>` | Title |
-| `<span>` | Text |
-| `<strike>` | Text |
-| `<strong>` | Title |
-| `<style>` | Text |
-| `<sub>` | Text |
-| `<summary>` | Title |
-| `<sup>` | Text |
-| `<svg>` | Text |
-| `<table>` | Title |
-| `<tbody>` | Text |
-| `<td>` | Text |
-| `<template>` | Title |
-| `<textarea>` | Text |
-| `<tfoot>` | Text |
-| `<th>` | Title |
-| `<thead>` | Text |
-| `<time>` | Text |
-| `<title>` | Title |
-| `<tr>` | Text |
-| `<track>` | Text |
-| `<tt>` | Title |
-| `<u>` | Text |
-| `<ul>` | Text |
-| `<var>` | Title |
-| `<video>` | Text |
-| `<wbr>` | Text |
+| `<em>` | Mendefinisikan teks yang ditekankan |
+| `<embed>` | Mendefinisikan wadah untuk aplikasi eksternal |
+| `<fieldset>` | Mengelompokkan elemen terkait dalam formulir |
+| `<figcaption>` | Mendefinisikan keterangan untuk elemen `<figure>` |
+| `<figure>` | Menentukan konten mandiri |
+| `<font>` | Tidak didukung di HTML5. Gunakan CSS sebagai gantinya. Menentukan font, warna, dan ukuran teks |
+| `<footer>` | Mendefinisikan footer untuk dokumen atau bagian |
+| `<form>` | Mendefinisikan formulir HTML untuk input pengguna |
+| `<frame>` | Tidak didukung di HTML5. Mendefinisikan jendela (bingkai) dalam frameset |
+| `<frameset>` | Tidak didukung di HTML5. Mendefinisikan satu set frame |
+| `<h1> to <h6>` | Mendefinisikan judul HTML |
+| `<head>` | Berisi metadata/informasi untuk dokumen |
+| `<header>` | Mendefinisikan header untuk dokumen atau bagian |
+| `<hgroup>` | Mendefinisikan header dan konten terkait |
+| `<hr>` | Mendefinisikan perubahan tematik dalam konten |
+| `<html>` | Mendefinisikan akar dokumen HTML |
+| `<i>` | Mendefinisikan bagian teks dengan suara atau suasana hati alternatif |
+| `<iframe>` | Mendefinisikan bingkai sebaris |
+| `<img>` | Mendefinisikan gambar |
+| `<input>` | Mendefinisikan kontrol input |
+| `<ins>` | Mendefinisikan teks yang telah dimasukkan ke dalam dokumen |
+| `<kbd>` | Mendefinisikan masukan keyboard |
+| `<label>` | Mendefinisikan label untuk elemen `<input>` |
+| `<legend>` | Defines a caption for a `<fieldset>` element |
+| `<li>` | Mendefinisikan item daftar |
+| `<link>` | Mendefinisikan hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk menghubungkan ke style sheet) |
+| `<main>` | Menentukan konten utama dokumen |
+| `<map>` | Mendefinisikan peta gambar |
+| `<mark>` | Mendefinisikan teks yang ditandai/disorot |
+| `<menu>` | Mendefinisikan daftar tidak berurutan |
+| `<meta>` | Mendefinisikan metadata tentang dokumen HTML |
+| `<meter>` | Mendefinisikan pengukuran skalar dalam rentang yang diketahui (pengukur) |
+| `<nav>` | Mendefinisikan tautan navigasi |
+| `<noframes>` | Tidak didukung di HTML5. Mendefinisikan konten alternatif untuk pengguna yang tidak mendukung bingkai |
+| `<noscript>` | Mendefinisikan konten alternatif untuk pengguna yang tidak mendukung skrip sisi klien |
+| `<object>` | Mendefinisikan wadah untuk aplikasi eksternal |
+| `<ol>` | Mendefinisikan daftar yang dipesan |
+| `<optgroup>` | Mendefinisikan sekelompok opsi terkait dalam daftar drop-down |
+| `<option>` | Mendefinisikan opsi dalam daftar drop-down |
+| `<output>` | Mendefinisikan hasil perhitungan |
+| `<p>` | Defines a paragraph |
+| `<param>` | Mendefinisikan parameter untuk suatu objek |
+| `<picture>` | Mendefinisikan wadah untuk beberapa sumber gambar |
+| `<pre>` | Mendefinisikan teks yang telah diformat sebelumnya |
+| `<progress>` | Mendefinisikan teks yang telah diformat sebelumnya |
+| `<q>` | Mendefinisikan teks yang telah diformat sebelumnya Mendefinisikan kutipan singkat |
+| `<rp>` | Menentukan apa yang akan ditampilkan di browser yang tidak mendukung anotasi Ruby |
+| `<rt>` | Mendefinisikan penjelasan/pengucapan karakter (untuk tipografi Asia Timur) |
+| `<ruby>` | Mendefinisikan anotasi rubi (untuk tipografi Asia Timur) |
+| `<s>` | Mendefinisikan teks yang tidak lagi benar |
+| `<samp>` | Mendefinisikan contoh output dari program komputer |
+| `<script>` | Mendefinisikan skrip sisi klien |
+| `<search>` | Mendefinisikan bagian pencarian |
+| `<section>` | Mendefinisikan bagian dalam dokumen |
+| `<select>` | Mendefinisikan daftar drop-down |
+| `<small>` | Mendefinisikan teks yang lebih kecil |
+| `<source>` | Defines multiple media resources for media elements (<video> and <audio>) |
+| `<span>` | Mendefinisikan bagian dalam dokumen |
+| `<strike>` | Tidak didukung di HTML5. Gunakan `<del>` atau `<s>` sebagai gantinya. Mendefinisikan teks yang dicoret |
+| `<strong>` | Mendefinisikan teks penting |
+| `<style>` | Mendefinisikan informasi gaya untuk suatu dokumen |
+| `<sub>` | Mendefinisikan teks berlangganan |
+| `<summary>` | Mendefinisikan judul yang terlihat untuk elemen `<details>` |
+| `<sup>` | Mendefinisikan teks superskrip |
+| `<svg>` | Mendefinisikan wadah untuk grafik SVG |
+| `<table>` | Mendefinisikan sebuah tabel |
+| `<tbody>` | Mengelompokkan konten isi dalam sebuah tabel |
+| `<td>` | Defines a cell in a table |
+| `<template>` | Mendefinisikan wadah untuk konten yang harus disembunyikan saat halaman dimuat |
+| `<textarea>` | Mendefinisikan kontrol input multiline (area teks) |
+| `<tfoot>` | Mengelompokkan konten footer dalam sebuah tabel |
+| `<th>` | Mendefinisikan sel header dalam sebuah tabel |
+| `<thead>` | Mengelompokkan konten header dalam sebuah tabel |
+| `<time>` | Mendefinisikan waktu tertentu (atau tanggal waktu) |
+| `<title>` | Menentukan judul dokumen |
+| `<tr>` | Mendefinisikan baris dalam sebuah tabel |
+| `<track>` | Mendefinisikan trek teks untuk elemen media ( `<video>` dan `<audio> `)|
+| `<tt>` | Mendefinisikan trek teks untuk elemen media (`<video> dan <audio>`) |
+| `<u>` | Mendefinisikan beberapa teks yang tidak diartikulasikan dan ditata berbeda dari teks normal |
+| `<ul>` | Mendefinisikan daftar tidak berurutan |
+| `<var>` | Mendefinisikan variabel |
+| `<video>` | Mendefinisikan konten video yang disematkan |
+| `<wbr>` | Mendefinisikan kemungkinan jeda baris |
