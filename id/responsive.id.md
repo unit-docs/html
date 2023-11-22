@@ -15,3 +15,11 @@ Berikut adalah contoh halaman web tanpa meta tag viewport, dan halaman web yang 
 ![radhi](https://github.com/uin-unit/docs-html/blob/main/images/image%20responsif.png)
 
 ## Gambar Responsif
+Gambar responsif adalah gambar yang dapat diskalakan dengan baik agar sesuai dengan ukuran browser apa pun.
+Menggunakan Properti lebar
+Jika properti lebar CSS disetel ke 100%, gambar akan responsif dan skalanya naik dan turun:
+
+Contoh : 
+```sh
+<img src="img_girl.jpg" style="width:100%;">
+```
