@@ -8,5 +8,5 @@ draft: true
 
 
 ![emoji](https://github.com/uin-unit/docs-html/blob/main/images/emoji1.png)
-![emoji](images/emoji2.png)
-![emoji](images/emoji3.pmg)
+![emoji](https://github.com/uin-unit/docs-html/blob/main/images/emoji2.png)
+![emoji](https://github.com/uin-unit/docs-html/blob/main/images/emoji3.png)
