@@ -1,97 +1,147 @@
-# Atribut ID HTML
-Atribut HTML iddigunakan untuk menentukan id unik untuk elemen HTML.
-Anda tidak boleh memiliki lebih dari satu elemen dengan id yang sama dalam dokumen HTML.
-## Menggunakan Atribut id
-Atribut idmenentukan id unik untuk elemen HTML. Nilai atribut id harus unik dalam dokumen HTML.
-Atribut iddigunakan untuk menunjuk ke deklarasi gaya tertentu dalam style sheet. Itu juga digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan id tertentu.
-Sintaks untuk id adalah: tulis karakter hash (#), diikuti dengan nama id. Lalu, definisikan properti CSS di dalam kurung kurawal {}.
-Dalam contoh berikut kita memiliki `<h1>` elemen yang menunjuk ke nama id "myHeader". 
-Elemen ini `<h1>` akan ditata sesuai dengan #myHeader definisi gaya di bagian kepala:
+# ATRIBUT HTML
+Atribut HTML memberikan informasi tambahan tentang elemen HTML.
+
+## Atribut HTML
+
+- Semua elemen HTML dapat memiliki atribut
+- Atribut memberikan informasi tambahan tentang elemen
+- Atribut selalu ditentukan dalam tag awal
+- Atribut biasanya datang dalam pasangan nama/nilai seperti: name="value"
+
+## Atribut href
+
+Tag <a> mendefinisikan hyperlink. Atribut href menentukan URL halaman yang dituju link tersebut:
 Contoh : 
 ```sh
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+```
+## The src Attribute
+Tag <img> digunakan untuk menyematkan gambar dalam halaman HTML. Atribut src menentukan jalur ke gambar yang akan ditampilkan:
+Contoh : 
+```sh
+<img src="img_girl.jpg">
+```
+Ada dua cara untuk menentukan URL di atribut src:
+1. URL Absolut - Tautan ke gambar eksternal yang dihosting di situs web lain. Contoh: src="https://www.w3schools.com/images/img_girl.jpg".
+Catatan: Gambar eksternal mungkin dilindungi hak cipta. Jika Anda tidak mendapatkan izin untuk menggunakannya, Anda mungkin melanggar undang-undang hak cipta. Selain itu, Anda tidak dapat mengontrol gambar eksternal; itu bisa tiba-tiba dihapus atau diubah.
+
+2. URL Relatif - Tautan ke gambar yang dihosting di dalam situs web. Di sini, URL tidak menyertakan nama domain. Jika URL diawali tanpa garis miring, URL tersebut akan relatif terhadap halaman saat ini. Contoh: src="img_girl.jpg". Jika URL dimulai dengan garis miring, itu akan berhubungan dengan domain. Contoh: src="/images/img_girl.jpg".
+Tip: Hampir selalu yang terbaik adalah menggunakan URL relatif. Mereka tidak akan rusak jika Anda mengubah domain.
+
+## Atribut lebar dan tinggi
+Tag <img> juga harus berisi atribut lebar dan tinggi, yang menentukan lebar dan tinggi gambar (dalam piksel):\
+
+Contoh : 
+
+```sh
+<img src="img_girl.jpg" width="500" height="600">
+```
+
+## Atribut alt
+
+Atribut alt yang diperlukan untuk tag <img> menentukan teks alternatif untuk gambar, jika gambar karena alasan tertentu tidak dapat ditampilkan. Hal ini dapat disebabkan oleh koneksi yang lambat, atau kesalahan pada atribut src, atau jika pengguna menggunakan pembaca layar.
+
+Contoh : 
+```sh
+<img src="img_girl.jpg" alt="Girl with a jacket">
+```
+
+Contoh : 
+
+See what happens if we try to display an image that does not exist:
+```sh
+<img src="img_typo.jpg" alt="Girl with a jacket">
+```
+## Atribut gaya
+Atribut style digunakan untuk menambahkan gaya pada suatu elemen, seperti warna, font, ukuran, dan lainnya.
+Contoh : 
+```sh
+<p style="color:red;">This is a red paragraph.</p>
+```
+## Atribut lang
+
+Anda harus selalu menyertakan atribut lang di dalam tag <html>, untuk mendeklarasikan bahasa halaman Web. Ini dimaksudkan untuk membantu mesin pencari dan browser.
+Contoh berikut menetapkan bahasa Inggris sebagai bahasanya:
+```sh
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-#myHeader {
-  background-color: lightblue;
-  color: black;
-  padding: 40px;
-  text-align: center;
-}
-</style>
-</head>
+<html lang="en">
 <body>
-
-<h1 id="myHeader">My Header</h1>
-
+...
 </body>
 </html>
 ```
-Catatan: Nama id peka huruf besar-kecil!
-Catatan: Nama id harus mengandung minimal satu karakter, tidak boleh diawali dengan angka, dan tidak boleh mengandung spasi (spasi, tab, dll).
-## Perbedaan Antara Kelas dan ID
-Nama kelas dapat digunakan oleh beberapa elemen HTML, sedangkan nama id hanya boleh digunakan oleh satu elemen HTML dalam halaman:
+
+Kode negara juga dapat ditambahkan ke kode bahasa di atribut lang. Jadi, dua karakter pertama menentukan bahasa halaman HTML, dan dua karakter terakhir menentukan negara.
+
+Contoh berikut menetapkan bahasa Inggris sebagai bahasanya dan Amerika Serikat sebagai negaranya:
+
+```sh
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+```
+
+## Judul Atribut
+Atribut title mendefinisikan beberapa informasi tambahan tentang suatu elemen.
+
+Nilai atribut title akan ditampilkan sebagai tooltip ketika Anda mengarahkan mouse ke elemen:
+
 Contoh : 
 ```sh
-<style>
-/* Style the element with the id "myHeader" */
-#myHeader {
-  background-color: lightblue;
-  color: black;
-  padding: 40px;
-  text-align: center;
-}
-
-/* Style all elements with the class name "city" */
-.city {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
-}
-</style>
-
-<!-- An element with a unique id -->
-<h1 id="myHeader">My Cities</h1>
-
-<!-- Multiple elements with same class -->
-<h2 class="city">London</h2>
-<p>London is the capital of England.</p>
-
-<h2 class="city">Paris</h2>
-<p>Paris is the capital of France.</p>
-
-<h2 class="city">Tokyo</h2>
-<p>Tokyo is the capital of Japan.</p>
+<p title="I'm a tooltip">This is a paragraph.</p>
 ```
-## Bookmark HTML dengan ID dan Tautan
-Bookmark HTML digunakan untuk memungkinkan pembaca melompat ke bagian tertentu dari halaman web.
-Bookmark dapat berguna jika halaman Anda sangat panjang.
-Untuk menggunakan bookmark, Anda harus membuatnya terlebih dahulu, lalu menambahkan link ke bookmark tersebut.
-Kemudian, ketika link tersebut diklik, halaman tersebut akan bergulir ke lokasi yang diberi bookmark.
-Contoh
-Pertama, buat bookmark dengan idatribut:
+Saran Kami: Selalu Gunakan Atribut Huruf Kecil
+Standar HTML tidak memerlukan nama atribut huruf kecil.
+Atribut judul (dan seluruh atribut lainnya) dapat ditulis dengan huruf besar atau huruf kecil seperti judul atau TITLE.
+Namun, W3C merekomendasikan atribut huruf kecil dalam HTML, dan meminta atribut huruf kecil untuk jenis dokumen yang lebih ketat seperti XHTML.
+
+Saran Kami: Selalu Mengutip Nilai Atribut
+Standar HTML tidak memerlukan tanda kutip di sekitar nilai atribut.
+Namun, W3C merekomendasikan kutipan dalam HTML, dan meminta kutipan untuk jenis dokumen yang lebih ketat seperti XHTML.
+
+**Good:**
 ```sh
-<  h2 id="C4"  >Chapter 4<  /h2  >
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 ```
-Atau, tambahkan link ke bookmark ("Lompat ke Bab 4"), dari halaman lain:
-<a href="html_demo.html#C4">Jump to Chapter 4</a>
-Menggunakan Atribut id dalam JavaScript
-Atribut idjuga dapat digunakan oleh JavaScript untuk melakukan beberapa tugas untuk elemen tertentu.
-JavaScript dapat mengakses elemen dengan id tertentu dengan getElementById()metode:
+**Bad:**
+```sh
+<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+```
+Terkadang Anda harus menggunakan tanda kutip. Contoh ini tidak akan menampilkan atribut title dengan benar, karena mengandung spasi:
+
 Contoh : 
-### Gunakan atribut id untuk memanipulasi teks dengan JavaScript:
+
 ```sh
-<script>
-function displayResult() {
-  document.getElementById("myHeader").innerHTML = "Have a nice day!";
-}
-</script>
+<p title=About W3Schools>
 ```
+
+## Kutipan Tunggal atau Ganda?
+
+Tanda kutip ganda di sekitar nilai atribut adalah yang paling umum dalam HTML, namun tanda kutip tunggal juga dapat digunakan.
+
+Dalam beberapa situasi, ketika nilai atribut itu sendiri berisi tanda kutip ganda, maka perlu menggunakan tanda kutip tunggal:
+
+`<p title='John "ShotGun" Nelson'>`
+Atau sebaliknya:
+`<p title="John 'ShotGun' Nelson">`
+
 ## Ringkasan Bab
-Atribut iddigunakan untuk menentukan id unik untuk elemen HTML
-Nilai atribut id harus unik dalam dokumen HTML
-Atribut ini id digunakan oleh CSS dan JavaScript untuk menata/memilih elemen tertentu
-Nilai atribut id peka huruf besar-kecil
-Atribut ini id juga digunakan untuk membuat bookmark HTML
-JavaScript dapat mengakses elemen dengan id tertentu dengan getElementById() metode ini
+
+Semua elemen HTML dapat memiliki atribut
+
+- Atribut href dari <a> menentukan URL halaman yang dituju link tersebut
+
+- Atribut src dari <img> menentukan jalur ke gambar yang akan ditampilkan
+
+- Atribut lebar dan tinggi <img> memberikan informasi ukuran gambar
+
+- Atribut alt <img> menyediakan teks alternatif untuk gambar
+
+- Atribut style digunakan untuk menambahkan gaya pada suatu elemen, seperti warna, font, ukuran, dan lainnya
+
+- Atribut lang dari tag <html> mendeklarasikan bahasa halaman Web
+
+- Atribut title mendefinisikan beberapa informasi tambahan tentang suatu elemen
