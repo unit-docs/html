@@ -33,3 +33,5 @@ Ingin domain khusus untuk situs web Anda?
 Anda dapat membeli domain atau mentransfer domain yang sudah ada dan menghubungkannya ke ruang Anda.
 ## Bagaimana cara kerjanya?
 Mulailah dalam beberapa klik dengan W3School Spaces.
+
+![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/editor%204.png)
