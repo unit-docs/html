@@ -118,3 +118,112 @@ Tautan ke halaman yang terletak di folder yang sama dengan halaman saat ini:
 ```sh
 <a href="default.asp">HTML tutorial</a>
 ```
+## Ringkasan Bab
+
+- Gunakan elemen `<a>` untuk mendefinisikan tautan
+- Gunakan atribut href untuk menentukan alamat tautan
+- Gunakan atribut target untuk menentukan tempat membuka dokumen tertaut
+- Gunakan elemen `<img>` (di dalam <a>) untuk menggunakan gambar sebagai tautan
+- Gunakan skema mailto: di dalam atribut href untuk membuat tautan yang membuka program email pengguna
+
+# Tautan HTML - Warna Berbeda
+
+Tautan HTML ditampilkan dalam warna berbeda tergantung apakah sudah dikunjungi, belum dikunjungi, atau aktif.
+
+## Warna Tautan HTML
+
+Secara default, tautan akan muncul seperti ini (di semua browser):
+- Tautan yang belum dikunjungi digarisbawahi dan berwarna biru
+- Tautan yang dikunjungi digarisbawahi dan berwarna ungu
+- Tautan aktif digarisbawahi dan berwarna merah
+
+Anda dapat mengubah warna status tautan dengan menggunakan CSS:
+Contoh : 
+
+Di sini, tautan yang tidak dikunjungi akan berwarna hijau tanpa garis bawah. Tautan yang dikunjungi akan berwarna merah muda tanpa garis bawah. Tautan yang aktif akan berwarna kuning dan digarisbawahi. Selain itu, saat mengarahkan mouse ke tautan (a:hover), tautan tersebut akan berwarna merah dan digarisbawahi:
+
+```sh
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+```
+```sh
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+```
+```sh
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+```
+```sh
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+```
+
+## Tombol Tautan
+
+Tautan juga dapat ditata sebagai tombol, dengan menggunakan CSS:
+
+![Links-HTML](https://github.com/uin-unit/docs-html/blob/main/images/links-HTML.png)
+
+Contoh : 
+```sh
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+```
+```sh
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+```
+
+# Tautan HTML - Buat Bookmark
+
+Tautan HTML dapat digunakan untuk membuat bookmark, sehingga pembaca dapat melompat ke bagian tertentu pada halaman web.
+
+## Buat Bookmark dalam HTML
+
+Bookmark dapat berguna jika halaman web sangat panjang.
+Untuk membuat bookmark - pertama buat bookmark, lalu tambahkan link ke dalamnya.
+Ketika tautan diklik, halaman akan bergulir ke bawah atau ke atas ke lokasi yang diberi bookmark.
+
+Contoh : 
+Pertama, gunakan atribut id untuk membuat penanda:
+```sh
+<h2 id="C4">Chapter 4</h2>
+```
+Kemudian, tambahkan link ke bookmark ("Lompat ke Bab 4"), dari dalam halaman yang sama:
+
+Contoh : 
+```sh
+<a href="#C4">Jump to Chapter 4</a>
+```
+Anda juga dapat menambahkan link ke bookmark di halaman lain:
+```sh
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+```
+## Ringkasan Bab
+
+- Gunakan atribut id (id="value") untuk menentukan bookmark di halaman
+- Gunakan atribut href (href="#value") untuk menautkan ke bookmark
