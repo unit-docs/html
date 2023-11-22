@@ -26,6 +26,7 @@ B adalah 66
 C adalah 67
 Contoh : 
 
+```sh
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -36,6 +37,7 @@ Contoh :
 
 </body>
 </html>
+```
 
 Contoh Dijelaskan
 Elemen `<meta charset="UTF-8">` mendefinisikan kumpulan karakter.
