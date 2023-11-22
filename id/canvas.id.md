@@ -59,7 +59,20 @@ Setelah membuat area kanvas persegi panjang, Anda harus menambahkan JavaScript u
 
 Berikut ini beberapa contohnya:
 
-Menggambar Sebuah Garis
+**Menggambar Sebuah Garis**
+![canvas3](https://github.com/uin-unit/docs-html/blob/main/images/canvas3.png)
 
+contoh : 
+```sh
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+</script>
+```
+
+**Menggambar sebuah lingkaran**
 
 
