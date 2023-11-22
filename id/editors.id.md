@@ -29,12 +29,15 @@ Tulis atau salin kode HTML berikut ke Notepad:
 
 ![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/editors%201.png)
 ## Langkah 3: Simpan Halaman HTML
+
 Simpan file di komputer Anda. Pilih File > Simpan sebagai di menu Notepad.
 
-![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/editors%203.png)
 Beri nama file "index.htm" dan atur pengkodeannya ke UTF-8 (yang merupakan pengkodean pilihan untuk file HTML).
 
 ![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/editors%202.png)
+
 ## Langkah 4: Lihat Halaman HTML di Browser Anda
 Buka file HTML yang disimpan di browser favorit Anda (klik dua kali pada file tersebut, atau klik kanan - dan pilih "Buka dengan").
 Hasilnya akan terlihat seperti ini:
+
+![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/editors%203.png)
