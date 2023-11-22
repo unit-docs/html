@@ -60,6 +60,7 @@ Setelah membuat area kanvas persegi panjang, Anda harus menambahkan JavaScript u
 Berikut ini beberapa contohnya:
 
 **Menggambar Sebuah Garis**
+
 ![canvas3](https://github.com/uin-unit/docs-html/blob/main/images/canvas3.png)
 
 contoh : 
