@@ -31,7 +31,10 @@ Contoh :
 ```sh
 <img src="img_girl.jpg" style="max-width:100%;height:auto;">
 ```
+
+
 Tampilkan Gambar Berbeda Tergantung Lebar Browser
 Elemen HTML <picture> memungkinkan Anda menentukan gambar berbeda untuk ukuran jendela browser berbeda.
 Ubah ukuran jendela browser untuk melihat bagaimana gambar di bawah berubah tergantung pada lebarnya:
+
 Contoh : 
