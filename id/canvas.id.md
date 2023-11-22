@@ -28,3 +28,20 @@ Kanvas memiliki beberapa metode untuk menggambar jalur, kotak, lingkaran, teks, 
 
 Angka-angka pada tabel menentukan versi browser pertama yang sepenuhnya mendukung elemen `<canvas>`.
 
+![canvas1](https://github.com/uin-unit/docs-html/blob/main/images/audio1.png)
+
+Contoh Kanvas
+
+Kanvas adalah area persegi panjang pada halaman HTML. Secara default, kanvas tidak memiliki batas dan konten.
+
+Markupnya terlihat seperti ini:
+
+`<canvas id="myCanvas" width="200" height="100"></canvas>`
+
+Catatan: Selalu tentukan atribut id (untuk dirujuk dalam skrip), dan atribut lebar dan tinggi untuk menentukan ukuran kanvas. Untuk menambahkan 
+
+batas, gunakan atribut style.
+
+Berikut ini adalah contoh kanvas dasar yang kosong:
+
+
