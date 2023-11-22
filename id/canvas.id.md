@@ -91,4 +91,17 @@ ctx.stroke();
 
 **Menggambar Teks**
 
+![canvas5](https://github.com/uin-unit/docs-html/blob/main/images/canvas5.png)
+
+Contoh : 
+```sh
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World", 10, 50);
+</script>
+```
+
+**Teks Stroke**
 
