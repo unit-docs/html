@@ -44,4 +44,22 @@ batas, gunakan atribut style.
 
 Berikut ini adalah contoh kanvas dasar yang kosong:
 
+![canvas2](https://github.com/uin-unit/docs-html/blob/main/images/canvas2.png)
+
+Contoh :
+
+```sh
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+```
+
+## Menambahkan JavaScript
+
+Setelah membuat area kanvas persegi panjang, Anda harus menambahkan JavaScript untuk menggambar.
+
+Berikut ini beberapa contohnya:
+
+Menggambar Sebuah Garis
+
+
 
