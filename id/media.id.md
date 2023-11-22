@@ -21,4 +21,11 @@ Elemen multimedia (seperti audio atau video) disimpan dalam file media.
 Cara paling umum untuk mengetahui jenis file adalah dengan melihat ekstensi file.
 File multimedia memiliki format dan ekstensi yang berbeda seperti: .wav, .mp3, .mp4, .mpg, .wmv, dan .avi.
 
+![media-html](https://github.com/uin-unit/docs-html/blob/main/images/media-html.png)
+## Format Video Umum
+Ada banyak format video di luar sana.
+
+Format MP4, WebM, dan Ogg didukung oleh HTML.
+
+Format MP4 direkomendasikan oleh YouTube.
 
