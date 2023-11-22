@@ -28,4 +28,6 @@ Ada banyak format video di luar sana.
 Format MP4, WebM, dan Ogg didukung oleh HTML.
 
 Format MP4 direkomendasikan oleh YouTube.
+![media-html2](https://github.com/uin-unit/docs-html/blob/main/images/media-html2.png)
 
+Catatan: Hanya video MP4, WebM, dan Ogg yang didukung oleh standar HTML.
