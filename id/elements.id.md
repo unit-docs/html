@@ -1,24 +1,12 @@
-# Elemen Semantik HTML
-Unsur semantik = unsur yang mempunyai makna.
-# Apa itu Elemen Semantik?
-Elemen semantik dengan jelas menggambarkan maknanya bagi browser dan pengembang.
-Contoh elemen non-semantik: <div> dan <span> - Tidak menceritakan apa pun tentang isinya.
-Contoh elemen semantik: <form>, <table>, dan <article> - Mendefinisikan kontennya dengan jelas.
-# Elemen Semantik dalam HTML
-Banyak situs web berisi kode HTML seperti: <div id="nav"> <div class="header"> <div id="footer"> untuk menunjukkan navigasi, header, dan footer.
-Dalam HTML ada beberapa elemen semantik yang dapat digunakan untuk mendefinisikan berbagai bagian halaman web:
-- <  article  >
-- <  aside  >
-- <  details  >
-- <  figcaption  >
-- <  figure  >
-- <  footer  >
-- <  header  >
-- <  main  >
-- <  mark  >
-- <  nav  >
-- <  section  >
-- <  summary  >
-- <  time  >
-- 
-
+# HTML ELEMENTS
+Elemen HTML ditentukan oleh tag awal, beberapa konten, dan tag akhir.
+## Elemen HTML
+Elemen HTML adalah segalanya mulai dari tag awal hingga tag akhir:
+<tagname>Konten ada di sini...</tagname>
+Contoh beberapa elemen HTML:
+``` sh
+<h1>Judul Pertama Saya</h1>
+```
+``` sh
+<p>Paragraf pertama saya.</p>
+```
