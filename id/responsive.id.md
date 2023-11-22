@@ -46,3 +46,25 @@ Contoh :
   <img src="img_smallflower.jpg" alt="Flowers">
 </picture>
 ```
+Ukuran Teks Responsif
+Ukuran teks dapat diatur dengan satuan "vw", yang berarti "lebar viewport".
+Dengan begitu ukuran teks akan mengikuti ukuran jendela browser:
+
+Contoh : 
+```sh
+<h1 style="font-size:10vw">Hello World</h1>
+```
+## Pertanyaan Media
+Selain mengubah ukuran teks dan gambar, penggunaan kueri media di halaman web responsif juga umum dilakukan.
+Dengan kueri media, Anda dapat menentukan gaya yang sangat berbeda untuk ukuran browser berbeda.
+Contoh: ubah ukuran jendela browser untuk melihat bahwa tiga elemen div di bawah ini akan ditampilkan secara horizontal pada layar besar dan ditumpuk secara vertikal pada layar kecil:
+
+Left Menu
+
+
+
+Main Content
+
+
+
+Right Content
