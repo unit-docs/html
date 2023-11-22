@@ -16,15 +16,15 @@ Elemen tingkat blok selalu dimulai pada baris baru, dan browser secara otomatis 
 
 Elemen tingkat blok selalu menempati seluruh lebar yang tersedia (meregangkan ke kiri dan kanan sejauh mungkin).
 
-Dua elemen blok yang umum digunakan adalah: <p> dan <div>.
+Dua elemen blok yang umum digunakan adalah: `<p>` dan `<div>`.
 
-Elemen <p>mendefinisikan paragraf dalam dokumen HTML.
+Elemen `<p>` mendefinisikan paragraf dalam dokumen HTML.
 
-Elemen <div>mendefinisikan divisi atau bagian dalam dokumen HTML.
+Elemen `<div>` mendefinisikan divisi atau bagian dalam dokumen HTML.
 
-Elemen <p> adalah elemen tingkat blok.
+Elemen `<p>` adalah elemen tingkat blok.
 
-Elemen <div> adalah elemen tingkat blok.
+Elemen `<div>` adalah elemen tingkat blok.
 
 
 Contoh : 
@@ -70,17 +70,22 @@ Catatan: Elemen sebaris tidak boleh berisi elemen tingkat blok!
 
 
 ## Elemen Tingkat Blok
-Elemen tersebut <div>sering digunakan sebagai wadah untuk elemen HTML lainnya.
+Elemen tersebut `<div>` sering digunakan sebagai wadah untuk elemen HTML lainnya.
 
-Elemen tersebut <div>tidak memiliki atribut yang diperlukan, tetapi style, classdan idbersifat umum.
-Ketika digunakan bersama dengan CSS, <div>elemen tersebut dapat digunakan untuk menata blok konten:
+Elemen tersebut `<div>` tidak memiliki atribut yang diperlukan, tetapi style, class dan id bersifat umum.
+Ketika digunakan bersama dengan CSS, `<div>` elemen tersebut dapat digunakan untuk menata blok konten:
+
 Contoh : 
+
+```sh
 <div style="background-color:black;color:white;padding:20px;">
   <h2>London</h2>
   <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
 </div>
-Elemen <span>
-Elemen <span>adalah wadah sebaris yang digunakan untuk menandai bagian teks, atau bagian dokumen.
+```
+
+## Elemen `<span>`
+Elemen `<span>` adalah wadah sebaris yang digunakan untuk menandai bagian teks, atau bagian dokumen.
 Elemen tersebut <span>tidak memiliki atribut yang diperlukan, tetapi style, classdan idbersifat umum.
 Ketika digunakan bersama dengan CSS, <span>elemen tersebut dapat digunakan untuk menata bagian teks:
 Contoh : 
