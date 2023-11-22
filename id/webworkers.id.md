@@ -17,3 +17,11 @@ apa pun yang Anda inginkan: mengklik, memilih sesuatu, dll., saat pekerja web be
 
 # Peramban pendukung 
 
+![webworkers1](https://github.com/uin-unit/docs-html/blob/main/images/webworkers1.png)
+
+## Contoh HTML Pekerja Web 
+
+Contoh di bawah ini membuat pekerja web sederhana yang menghitung angka di latar belakang:
+
+Contoh :
+
