@@ -42,3 +42,42 @@ Contoh :
 Contoh Dijelaskan
 Elemen `<meta charset="UTF-8">` mendefinisikan kumpulan karakter.
 Karakter A, B, dan C ditampilkan dengan angka 65, 66, dan 67.
+Agar browser memahami bahwa Anda sedang menampilkan karakter, Anda harus mengawali nomor entitas dengan &# dan mengakhirinya dengan ; (titik koma).
+
+
+Karakter Emoji
+Emoji juga merupakan karakter dari alfabet UTF-8:
+😄 adalah 128516
+😍 adalah 128525
+💗 adalah 128151
+Contoh : 
+```sh
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body>
+
+<h1>My First Emoji</h1>
+
+<p>&#128512;</p>
+
+</body>
+</html>
+```
+Karena Emoji adalah karakter, Emoji dapat disalin, ditampilkan, dan diukur seperti karakter lainnya dalam HTML.
+Contoh : 
+```sh
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body>
+
+<h1>Sized Emojis</h1>
+
+<p style="font-size:48px">
+&#128512; &#128516; &#128525; &#128151;
+</p>
+
+</body>
+</html>
+```
