@@ -96,3 +96,4 @@ Tambahkan elemen yang diseret ke dalam elemen drop
 ## Contoh Lainnya
 Contoh
 Cara menarik (dan melepas) gambar bolak-balik antara dua elemen <div>:
+![ibnu](https://github.com/uin-unit/docs-html/blob/main/images/drag%20drop.png)
