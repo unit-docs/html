@@ -63,4 +63,38 @@ Your browser does not support the video tag.
 
 Angka-angka dalam tabel menentukan versi browser pertama yang sepenuhnya mendukung elemen `<video>`.
 
+![html video](https://github.com/uin-unit/docs-html/blob/main/images/html%20video.png)
+
+**Format Video HTML**
+
+Ada tiga format video yang didukung: MP4, WebM, dan Ogg. Dukungan browser untuk format yang berbeda adalah:
+
+![html video(1)](https://github.com/uin-unit/docs-html/blob/main/images/html%20video(1).png)
+
+**Video HTML - Jenis Media**
+
+![html video(2)](https://github.com/uin-unit/docs-html/blob/main/images/html%20video(2).png)
+
+**Video HTML - Metode, Properti, dan Peristiwa**
+
+DOM HTML mendefinisikan metode, properti, dan peristiwa untuk elemen `<video>`.
+Hal ini memungkinkan Anda memuat, memutar, dan menjeda video, serta mengatur durasi dan volume.
+
+Ada juga peristiwa DOM yang dapat memberi tahu Anda saat video mulai diputar, dijeda, dll.
+
+Contoh: Menggunakan JavaScript
+
+Untuk referensi DOM lengkap, buka Referensi DOM Audio/Video HTML kami.
+
+**Tag Video HTML**
+
+![html video(3)](https://github.com/uin-unit/docs-html/blob/main/images/html%20video(3).png)
+
+
+
+
+
+
+
+
 
