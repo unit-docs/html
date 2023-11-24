@@ -59,8 +59,8 @@ Pertama-tama: Untuk membuat elemen dapat diseret, setel atribut dapat diseret ke
 ```
 ## Apa yang Harus Diseret - ondragstart dan setData()
 Lalu, tentukan apa yang akan terjadi saat elemen diseret.
-Pada contoh di atas, atribut ondragstart memanggil fungsi, drag(event), yang menentukan data apa yang akan diseret.
-Metode dataTransfer.setData() menyetel tipe data dan nilai data yang diseret:
+Pada contoh di atas, atribut `ondragstart` memanggil fungsi, drag(event), yang menentukan data apa yang akan diseret.
+Metode `dataTransfer.setData()` menyetel tipe data dan nilai data yang diseret:
 Contoh : 
 ``` sh
 function drag(ev) {
@@ -73,7 +73,7 @@ Peristiwa ondragover menentukan di mana data yang diseret dapat dibuang.
 
 
 Secara default, data/elemen tidak dapat dihilangkan di elemen lain. Untuk mengizinkan penurunan, kita harus mencegah penanganan default elemen tersebut.
-Hal ini dilakukan dengan memanggil metode event.preventDefault() untuk acara ondragover:
+Hal ini dilakukan dengan memanggil metode `event.preventDefault()` untuk acara ondragover:
 Contoh : 
 ``` sh
 event.preventDefault()
@@ -89,8 +89,8 @@ function drop(ev) {
 }
 ```
 Kode menjelaskan:
-Panggil preventDefault() untuk mencegah penanganan data secara default oleh browser (defaultnya terbuka sebagai tautan yang dilepaskan)
-Dapatkan data yang diseret dengan metode dataTransfer.getData(). Metode ini akan mengembalikan data apa pun yang disetel ke tipe yang sama dalam metode setData()
+Panggil `preventDefault()` untuk mencegah penanganan data secara default oleh browser (defaultnya terbuka sebagai tautan yang dilepaskan)
+Dapatkan data yang diseret dengan metode `dataTransfer.getData()`. Metode ini akan mengembalikan data apa pun yang disetel ke tipe yang sama dalam metode `setData()`
 Data yang diseret adalah id elemen yang diseret ("drag1")
 Tambahkan elemen yang diseret ke dalam elemen drop
 ## Contoh Lainnya
