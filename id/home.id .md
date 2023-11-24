@@ -1,6 +1,6 @@
 # HTML HOME
 Belajar Mudah dengan HTML "Coba Sendiri"
-Dengan editor "Coba Sendiri", Anda dapat mengedit kode HTML dan melihat hasilnya
+Dengan editor, Anda dapat mengedit kode HTML dan melihat hasilnya
 contoh :
 ```sh
 <!DOCTYPE html>
