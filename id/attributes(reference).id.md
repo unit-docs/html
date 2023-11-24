@@ -1,6 +1,6 @@
 ---
 title: "Attributes (references)"
-date : 2023-09-22T10:28:51+07:00
+date : 2023-11-24
 draft: true
 ---
 
@@ -93,6 +93,31 @@ Tabel di bawah ini mencantumkan semua atribut HTML dan elemen apa saja yang dapa
 | ondragenter	 | All visible elements.	 | Skrip yang akan dijalankan saat elemen digeser ke target jatuh yang valid |
 | ondragleave	 | All visible elements.	 | Skrip yang akan dijalankan ketika sebuah elemen meninggalkan target jatuh yang valid |
 | ondragover	 | All visible elements.	 | Skrip yang akan dijalankan saat elemen digeser di atas target jatuh yang valid |
+| ondragstart	 | All visible elements.	 | Skrip yang akan dijalankan pada awal operasi geser |
+| ondrop	 | All visible elements.	 | Skrip yang akan dijalankan saat elemen yang digeser dijatuhkan |
+| ondurationchange	 | `<audio>`, `<video>`	 | Skrip yang akan dijalankan ketika panjang media berubah |
+| onemptied	 | `<audio>`, `<video>`	 | Skrip yang akan dijalankan ketika sesuatu yang buruk terjadi dan file tiba-tiba tidak tersedia (seperti terputus secara tak terduga) |
+| onended	 | `<audio>`, `<video>`	 | Skrip yang akan dijalankan ketika media telah mencapai akhir (acara yang berguna untuk pesan seperti "terima kasih telah mendengarkan") |
+| onerror	 | `<audio>`, `<body>`, `<embed>`, `<img>`, `<object>`, `<script>`, `<style>`, `<video>`	 | Skrip yang akan dijalankan ketika terjadi kesalahan |
+| onfocus	 | All visible elements.	 | Skrip yang akan dijalankan saat elemen mendapat fokus |
+| onhashchange	 | `<body>` | Script to be run when there has been changes to the anchor part of the a URL |
+| oninput	 | All visible elements.	 | Skrip yang akan dijalankan saat elemen mendapat masukan dari pengguna |
+| Paragraph | Text | Text |
+| Paragraph | Text | Text |
+| Header | Title | Title |
+| Paragraph | Text | Text |
+| Header | Title | Title |
+| Paragraph | Text | Text |
+| Paragraph | Text | Text |
+| Header | Title | Title |
+| Paragraph | Text | Text |
+| Header | Title | Title |
+| Paragraph | Text | Text |
+| Paragraph | Text | Text |
+| Header | Title | Title |
+| Paragraph | Text | Text |
+| Header | Title | Title |
+| Paragraph | Text | Text |
 | Paragraph | Text | Text |
 | Header | Title | Title |
 | Paragraph | Text | Text |
