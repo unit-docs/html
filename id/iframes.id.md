@@ -42,11 +42,16 @@ Contoh :
 <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
 ```
 ## Ringkasan Bab
-Tag HTML <iframe>menentukan bingkai sebaris
+Tag HTML `<iframe>`menentukan bingkai sebaris
 Atribut src mendefinisikan URL halaman yang akan disematkan
 Selalu sertakan titleatribut (untuk pembaca layar)
 Atribut heightand widthmenentukan ukuran iframe
 Gunakan border:none;untuk menghapus batas di sekitar iframe
-Tag iframe HTML
-Tag	Description
-<iframe>	Defines an inline frame
+
+## Tag iframe HTML
+	
+| Tag | Deskripsi |
+| ----------- | ----------- |
+| `<iframe>` | Defines an inline frame |
+
+	
