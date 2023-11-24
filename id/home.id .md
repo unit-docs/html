@@ -1,3 +1,9 @@
+---
+title: Home
+date : 2023-11-22
+draft: true
+---
+
 # HTML HOME
 Belajar Mudah dengan HTML "Coba Sendiri"
 Dengan editor, Anda dapat mengedit kode HTML dan melihat hasilnya
