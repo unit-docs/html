@@ -10,7 +10,7 @@ Jalur file menjelaskan lokasi file dalam struktur folder situs web.
 
 Contoh Jalur File
 
-Deskripsi Jalur
+**Deskripsi Jalur**
 
 `<img src="picture.jpg">` File "picture.jpg" terletak di folder yang sama dengan halaman saat ini
 
@@ -34,15 +34,17 @@ Jalur file digunakan saat menautkan ke file eksternal, seperti:
 
 - JavaScript
 
-### Jalur File Absolut
+## Jalur File Absolut
 
 Jalur file absolut adalah URL lengkap ke file:
 
 Contoh : 
 
-```<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">```
+```sh
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+```
 
-### Jalur File Relatif
+## Jalur File Relatif
 
 Jalur file relatif menunjuk ke file yang relatif terhadap halaman saat ini.
 
@@ -50,21 +52,27 @@ Dalam contoh berikut, jalur file menunjuk ke file di folder gambar yang terletak
 
 Contoh : 
 
-``` <img src="/images/picture.jpg" alt="Mountain">```
+```sh
+<img src="/images/picture.jpg" alt="Mountain">
+```
 
 Dalam contoh berikut, jalur file menunjuk ke file di folder gambar yang terletak di folder saat ini:
 
 Contoh : 
 
-``` <img src="images/picture.jpg" alt="Mountain">```
+```sh
+<img src="images/picture.jpg" alt="Mountain">
+```
 
 Dalam contoh berikut, jalur file menunjuk ke file di folder gambar yang terletak di folder yang satu tingkat lebih tinggi dari folder saat ini:
 
 Contoh : 
 
-``` <img src="../images/picture.jpg" alt="Mountain">```
+```sh
+<img src="../images/picture.jpg" alt="Mountain">
+```
 
-### Praktek terbaik
+## Praktek terbaik
 
 Praktik terbaiknya adalah menggunakan jalur file relatif (jika memungkinkan).
 
