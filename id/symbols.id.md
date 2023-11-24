@@ -17,13 +17,13 @@ Contoh :
 ## Menampilkan tanda euro: 
 
 ```sh
-<p>I will display &euro;</p>
+<p>I will display &euro; </p>
 ```
 ```sh
-<p>I will display &#8364;</p>
+<p>I will display &#8364; </p>
 ```
 ```sh
-<p>I will display &#x20AC;</p>
+<p>I will display &#x20AC; </p>
 ```
 
 Akan ditampilkan sebagai:
