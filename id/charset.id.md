@@ -13,8 +13,11 @@ Contoh :
 <meta charset="UTF-8">
 ```
 Spesifikasi HTML5 mendorong pengembang web untuk menggunakan rangkaian karakter UTF-8.
+
 UTF-8 mencakup hampir semua karakter dan simbol di dunia!
+
 Referensi UTF-8 Lengkap
+
 ## Kumpulan Karakter ASCII
 ASCII adalah standar pengkodean karakter pertama untuk web. Ini mendefinisikan 128 karakter berbeda yang dapat digunakan di internet:
 - Huruf bahasa Inggris (A-Z)
