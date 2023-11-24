@@ -3,7 +3,7 @@ Pelajari HTML Menggunakan Notepad atau TextEdit
 Halaman web dapat dibuat dan dimodifikasi dengan menggunakan editor HTML profesional.
 Namun, untuk mempelajari HTML kami merekomendasikan editor teks sederhana seperti Notepad (PC) atau TextEdit (Mac).
 ## Langkah 1: Buka Notepad (PC)
-Windows 8 atau lebih baru:
+**Windows 8 atau lebih baru**:
 Buka start screen (simbol jendela di kiri bawah layar Anda). Ketik notepad.
 Windows 7 atau versi lebih lama:
 Buka Mulai > Program > Aksesoris > Notepad
