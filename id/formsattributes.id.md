@@ -1,11 +1,11 @@
 ---
 title: Atribut Formulir
-date : 2023-09-22T10:28:51+07:00
+date : 2023-11-22
 draft: true
 ---
 
 # Atribut Formulir HTML
-Bab ini menjelaskan berbagai atribut yang berbeda untuk elemen HTML <form>.
+Bab ini menjelaskan berbagai atribut yang berbeda untuk elemen HTML `<form>`.
 
 ## Atribut Tindakan
 
