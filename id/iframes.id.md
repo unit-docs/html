@@ -7,7 +7,7 @@ draft: true
 # Iframe HTML
 Iframe HTML digunakan untuk menampilkan halaman web di dalam halaman web.
 ## Syntax Iframe HTML
-Tag HTML <iframe>menentukan bingkai sebaris.
+Tag HTML `<iframe>` menentukan bingkai sebaris.
 Bingkai sebaris digunakan untuk menyematkan dokumen lain ke dalam dokumen HTML saat ini.
 ## Syntax
 ```sh
