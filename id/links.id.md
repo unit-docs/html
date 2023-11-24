@@ -57,8 +57,7 @@ Contoh :
 <h2>Absolute URLs</h2>
 <p><a href="https://www.w3.org/">W3C</a></p>
 <p><a href="https://www.google.com/">Google</a></p>
-```
-```sh
+
 <h2>Relative URLs</h2>
 <p><a href="html_images.asp">HTML Images</a></p>
 <p><a href="/css/default.asp">CSS Tutorial</a></p>
@@ -149,22 +148,19 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-```
-```sh
+
 a:visited {
   color: pink;
   background-color: transparent;
   text-decoration: none;
 }
-```
-```sh
+
 a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
-```
-```sh
+
 a:active {
   color: yellow;
   background-color: transparent;
@@ -190,8 +186,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-```
-```sh
+
 a:hover, a:active {
   background-color: red;
 }
