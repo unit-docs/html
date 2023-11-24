@@ -1,27 +1,27 @@
-----
-title: "Insert Title"
-date : 2023-09-22T10:28:51+07:00
+---
+title: SVG
+date : 2023-11-22
 draft: true
 ---
 
 # Grafik HTML SVG
 SVG mendefinisikan grafik berbasis vektor dalam format XML.
 
-**Apa yang dimaksud dengan SVG?**
+## Apa yang dimaksud dengan SVG?
 - SVG adalah singkatan dari Scalable Vector Graphics
 - SVG digunakan untuk mendefinisikan grafik untuk Web
 - SVG adalah rekomendasi W3C
 
- **Elemen HTML** `<svg>`
+ ## Elemen HTML `<svg>`
  
 Elemen HTML `<svg>` adalah wadah untuk grafik SVG.
 SVG memiliki beberapa metode untuk menggambar jalur, kotak, lingkaran, teks, dan gambar grafik.
 
-**Dukungan Browser**
+## Dukungan Browser
 
 ![grafik html svg](https://github.com/uin-unit/docs-html/blob/main/images/grafik%20html%20svg.png)
 
-**Lingkaran SVG**
+## Lingkaran SVG
 
 ![grafik html svg1](https://github.com/uin-unit/docs-html/blob/main/images/grafik%20html%20svg(1).png)
 
@@ -39,7 +39,7 @@ Contoh :
 </html>
 ```
 
-**SVG Persegi Panjang**
+## SVG Persegi Panjang
 
 ![grafik html svg2](https://github.com/uin-unit/docs-html/blob/main/images/grafik%20html%20svg(2).png)
 
@@ -52,7 +52,7 @@ Contoh :
 </svg>
 ```
 
-**Bintang SVG**
+## Bintang SVG
 
 ![grafik html svg3](https://github.com/uin-unit/docs-html/blob/main/images/grafik%20html%20svg(3).png)
 
@@ -65,7 +65,7 @@ Contoh :
 </svg>
 ```
 
-**Logo SVG**
+## Logo SVG
 
 ![grafik html svg4](https://github.com/uin-unit/docs-html/blob/main/images/grafik%20html%20svg(4).png)
 
@@ -85,7 +85,7 @@ Contoh :
 </svg>
 ```
 
-**Perbedaan Antara SVG dan Kanvas**
+## Perbedaan Antara SVG dan Kanvas
 
 SVG adalah bahasa untuk menggambarkan grafik 2D dalam XML.
 Canvas menggambar grafik 2D, dengan cepat (dengan JavaScript).
@@ -93,7 +93,7 @@ SVG berbasis XML, yang berarti setiap elemen tersedia dalam DOM SVG. Anda dapat 
 Dalam SVG, setiap bentuk yang digambar diingat sebagai objek. Jika atribut objek SVG diubah, browser dapat secara otomatis merender ulang bentuk tersebut.
 Kanvas dirender piksel demi piksel. Dalam kanvas, setelah grafik digambar, grafik akan dilupakan oleh browser. Jika posisinya harus diubah, seluruh adegan harus digambar ulang, termasuk objek apa pun yang mungkin tertutupi oleh grafik.
 
-**Perbandingan Kanvas dan SVG**
+## Perbandingan Kanvas dan SVG
 
 Tabel di bawah ini menunjukkan beberapa perbedaan penting antara Canvas dan SVG:
 
