@@ -10,13 +10,13 @@ Dengan CSS, Anda dapat mengontrol warna, font, ukuran teks, jarak antar elemen, 
 ## Menggunakan CSS
 CSS dapat ditambahkan ke dokumen HTML dengan 3 cara:
 - Inline - by using the style attribute inside HTML elements
-- Internal - by using a <style> element in the <head> section
-- External - by using a <link> element to link to an external CSS file
+- Internal - by using a `<style>` element in the <head> section
+- External - by using a `<link>` element to link to an external CSS file
 Cara paling umum untuk menambahkan CSS adalah dengan menyimpan gaya di file CSS eksternal. Namun, dalam tutorial ini kita akan menggunakan gaya inline dan internal, karena ini lebih mudah untuk didemonstrasikan, dan lebih mudah bagi Anda untuk mencobanya sendiri.
 ### CSS sebaris
 CSS sebaris digunakan untuk menerapkan gaya unik ke satu elemen HTML.
 CSS sebaris menggunakan styleatribut elemen HTML.
-Contoh berikut mengatur warna teks elemen <h1>menjadi biru, dan warna teks <p>elemen menjadi merah:
+Contoh berikut mengatur warna teks elemen `<h1>` menjadi biru, dan warna teks `<p>` elemen menjadi merah:
 Contoh : 
 ```sh
 <h1 style="color:blue;">A Blue Heading</h1>
@@ -24,10 +24,10 @@ Contoh :
 ```sh
 <p style="color:red;">A red paragraph.</p>
 ```
-## CSS dalaman
+## Internal CSS
 CSS internal digunakan untuk menentukan gaya untuk satu halaman HTML.
-CSS internal didefinisikan di <head>bagian halaman HTML, di dalam sebuah <style>elemen.
-Contoh berikut mengatur warna teks SEMUA <  h1  >elemen (di halaman itu) menjadi biru, dan warna teks SEMUA elemen <p>menjadi merah. Selain itu, halaman akan ditampilkan dengan warna latar belakang "biru bubuk": 
+CSS internal didefinisikan di `<head>` bagian halaman HTML, di dalam sebuah `<style>` elemen.
+Contoh berikut mengatur warna teks SEMUA `<h1>` elemen (di halaman itu) menjadi biru, dan warna teks SEMUA elemen `<p>` menjadi merah. Selain itu, halaman akan ditampilkan dengan warna latar belakang "biru bubuk": 
 Contoh : 
 ```sh
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ p    {color: red;}
 ```
 ## CSS eksternal
 Lembar gaya eksternal digunakan untuk menentukan gaya pada banyak halaman HTML.
-Untuk menggunakan style sheet eksternal, tambahkan link ke dalamnya di bagian <head> pada setiap halaman HTML:
+Untuk menggunakan style sheet eksternal, tambahkan link ke dalamnya di bagian `<head>` pada setiap halaman HTML:
 Contoh : 
 ```sh
 <!DOCTYPE html>
@@ -85,7 +85,7 @@ Properti warna CSS mendefinisikan warna teks yang akan digunakan.
 Properti font-family CSS mendefinisikan font yang akan digunakan.
 Properti ukuran font CSS menentukan ukuran teks yang akan digunakan.
 Contoh : 
-Gunakan  CSS color, font-family and font-size properti:
+Gunakan  CSS `color`, `font-family` and `font-size` properti:
 ```sh
 <!DOCTYPE html>
 <html>
@@ -111,20 +111,20 @@ p {
 </body>
 </html>
 ```
-## Perbatasan CSS
+## Border CSS
 Properti perbatasan CSS mendefinisikan batas di sekitar elemen HTML.
 Tip: Anda dapat menentukan batas untuk hampir semua elemen HTML.
 Contoh : 
-Gunakan of CSS border properti: 
+Gunakan of CSS `border` properti: 
 ```sh
 p {
   border: 2px solid powderblue;
 }
 ```
-Bantalan CSS
+## Padding CSS
 Properti padding CSS mendefinisikan padding (spasi) antara teks dan batas.
 Contoh : 
-Gunakan of CSS border and padding properti:
+Gunakan CSS `border` and `padding` properti:
 ```sh
 p {
   border: 2px solid powderblue;
@@ -134,7 +134,7 @@ p {
 ## Margin CSS
 Properti margin CSS mendefinisikan margin (spasi) di luar batas.
 Contoh : 
-Use of CSS border and margin properties:
+Use of CSS `border` and `margin` properties:
 ```sh
 p {
   border: 2px solid powderblue;
@@ -160,9 +160,9 @@ Contoh ini menautkan ke lembar gaya yang terletak di folder yang sama dengan hal
 ```
 ### Ringkasan Bab
 Gunakan atribut gaya HTML untuk penataan gaya sebaris
-Gunakan elemen HTML <style> untuk mendefinisikan CSS internal
-Gunakan elemen HTML <link> untuk merujuk ke file CSS eksternal
-Gunakan elemen HTML <head> untuk menyimpan elemen <style> dan <link>
+Gunakan elemen HTML `<style>` untuk mendefinisikan CSS internal
+Gunakan elemen HTML `<link>` untuk merujuk ke file CSS eksternal
+Gunakan elemen HTML `<head>` untuk menyimpan elemen `<style>` dan `<link>`
 Gunakan properti warna CSS untuk warna teks
 Gunakan properti font-family CSS untuk font teks
 Gunakan properti ukuran font CSS untuk ukuran teks
