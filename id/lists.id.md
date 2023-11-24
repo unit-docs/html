@@ -71,7 +71,7 @@ Contoh :
   <dd>- white cold drink</dd>
 </dl>
 ```
-![list-html](https://github.com/uin-unit/docs-html/blob/main/images/list-html.png)
+
 ## Daftar Tidak Berurutan HTML
 
 Tag HTML `<ul>` mendefinisikan daftar tidak berurutan (berpoin).
@@ -207,8 +207,6 @@ li a:hover {
 - Item daftar dapat berisi elemen HTML lainnya
 - Gunakan properti CSS float:left untuk menampilkan daftar secara horizontal
 
-![list-html2](https://github.com/uin-unit/docs-html/blob/main/images/list-html2.png)
-
 # Daftar Urutan HTML
 
 Tag HTML <ol> mendefinisikan daftar yang diurutkan. Daftar yang diurutkan dapat berupa angka atau abjad.
@@ -328,4 +326,4 @@ Contoh :
 - Gunakan elemen HTML <dt> untuk mendefinisikan istilah deskripsi
 - Gunakan elemen HTML <dd> untuk mendeskripsikan istilah dalam daftar deskripsi
 
-![list-html5](https://github.com/uin-unit/docs-html/blob/main/images/list-html5.png)
+
