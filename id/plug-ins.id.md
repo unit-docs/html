@@ -3,23 +3,24 @@ Plug-in adalah program komputer yang memperluas fungsionalitas standar browser.
 ## Plug-in
 Plug-in dirancang untuk digunakan untuk berbagai tujuan berbeda:
 
--Untuk menjalankan applet Java
+- Untuk menjalankan applet Java
 
--Untuk menjalankan kontrol Microsoft ActiveX
+- Untuk menjalankan kontrol Microsoft ActiveX
 
--Untuk menampilkan film Flash
+- Untuk menampilkan film Flash
 
--Untuk menampilkan peta
+- Untuk menampilkan peta
 
--Untuk memindai virus
+- Untuk memindai virus
 
--Untuk memverifikasi id bank
+- Untuk memverifikasi id bank
 
 Peringatan !
 
 Kebanyakan browser tidak lagi mendukung Java Applet dan Plug-in.
 Kontrol ActiveX tidak lagi didukung di browser mana pun.
 Dukungan untuk Shockwave Flash juga telah dimatikan di browser modern
+
 ## Elemen `<objek>`
 Elemen ini `<object>` didukung oleh semua browser.
 Elemen `<object>` mendefinisikan objek yang tertanam dalam dokumen HTML.
