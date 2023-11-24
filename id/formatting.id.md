@@ -1,6 +1,6 @@
 ---
-title: pemformatan
-date : 2023-09-22T10:28:51+07:00
+title: "formatting"
+date : 2023-11-22
 draft: true
 ---
 
@@ -14,8 +14,8 @@ Contoh :
 
 *This text is italic*
 
-this is~subscript~
-    
+this is `<sub>` subscript `</sub>` and `<sup>` superscript `</sup>`
+     
 
 ### Elemen Pemformatan HTML
 
