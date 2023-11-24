@@ -8,7 +8,7 @@ draft: true
 
 Formulir HTML digunakan untuk mengumpulkan masukan dari pengguna. Masukan dari pengguna paling sering dikirim ke server untuk diproses.
 
-### Elemen `<form>`
+## Elemen `<form>`
 
 Elemen HTML `<form>` digunakan untuk membuat formulir HTML untuk input pengguna:
 
@@ -24,7 +24,7 @@ Elemen `<form>` adalah wadah untuk berbagai jenis elemen input, seperti: bidang 
 
 Semua elemen formulir yang berbeda dibahas dalam bab ini: Elemen Formulir HTML.
 
-### Elemen `<input>`
+## Elemen `<input>`
 
 HTML `<input>` adalah elemen bentuk yang paling sering digunakan.
 
@@ -42,7 +42,7 @@ Berikut contohnya:
 
 Semua jenis input yang berbeda dibahas dalam bab ini: Jenis Masukan HTML.
 
-### Bidang Teks
+## Bidang Teks
 
 `<input type="text">` mendefinisikan bidang input satu baris untuk input teks.
 
@@ -67,7 +67,7 @@ Last name:
 
 Catatan: Formulir itu sendiri tidak terlihat. Perhatikan juga bahwa lebar default bidang input adalah 20 karakter.
 
-Elemen `<label>`
+## Elemen `<label>`
 
 Perhatikan penggunaan elemen `<label>` pada contoh di atas.
 
@@ -80,14 +80,14 @@ Elemen `<label>` juga membantu pengguna yang mengalami kesulitan untuk mengeklik
 
 Atribut for pada tag `<label>` harus sama dengan atribut id pada elemen `<input>` untuk mengikat keduanya.
 
-Tombol Radio
+## Tombol Radio
 `<input type="radio">` mendefinisikan tombol radio.
 
 Tombol radio memungkinkan pengguna memilih **SALAH SATU** dari sejumlah pilihan yang terbatas.
 
 Contohnya:
 Formulir dengan tombol radio:
-
+```sh
 <p>Choose your favorite Web language:</p>
 
 <form>
@@ -98,18 +98,13 @@ Formulir dengan tombol radio:
   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
   <label for="javascript">JavaScript</label>
 </form>
+```
 
-Beginilah cara kode HTML di atas akan ditampilkan di browser:
-
-Pilih bahasa web favoritmu:
-- HTML
-- CSS
-- JavaScript
-
-Kotak Centang
-<input type="checkbox"> artinya sebuah kotak centang
+## Kotak Centang
+`<input type="checkbox">` artinya sebuah kotak centang
 
 Contoh formulir kotak centang:
+```sh
 <form>
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
   <label for="vehicle1"> I have a bike</label><br>
@@ -118,14 +113,14 @@ Contoh formulir kotak centang:
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
   <label for="vehicle3"> I have a boat</label>
 </form>
-
+```
 Tampilannya seperti ini:
 
 - [x] i have a bike
 - [ ] i have a car
 - [ ] i have a boat
 
-Tombol Kirim
+## Tombol Kirim
 
 `<input type="submit">` mendefinisikan tombol untuk mengirimkan data formulir ke penangan formulir.
 
@@ -148,7 +143,7 @@ Last name:
 Doe
 ```
 
-### Submit
+## Submit
 
 Atribut Nama untuk `<input>`
 
