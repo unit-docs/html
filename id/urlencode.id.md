@@ -1,6 +1,6 @@
 ---
-title: "Insert Title"
-date : 2023-09-22T10:28:51+07:00
+title: URL Encode
+date : 2023-11-22
 draft: true
 ---
 # Pencari Sumber Daya Seragam HTML
@@ -18,18 +18,19 @@ Uniform Resource Locator (URL) digunakan untuk mengalamatkan dokumen (atau data 
 Alamat web seperti https://www.w3schools.com/html/default.asp mengikuti aturan sintaksis berikut:
 
 scheme://prefix.domain:port/path/filename
+
 penjelasan:
-skema - mendefinisikan jenis layanan Internet (paling umum adalah http atau https)
+- skema - mendefinisikan jenis layanan Internet (paling umum adalah http atau https)
 
-awalan - mendefinisikan awalan domain (default untuk http adalah www)
+- awalan - mendefinisikan awalan domain (default untuk http adalah www)
 
-domain - mendefinisikan nama domain Internet (seperti w3schools.com)
+- domain - mendefinisikan nama domain Internet (seperti w3schools.com)
 
-port - menentukan nomor port pada host (default untuk http adalah 80)
+- port - menentukan nomor port pada host (default untuk http adalah 80)
 
-path - mendefinisikan jalur di server (Jika dihilangkan: direktori root situs)
+- path - mendefinisikan jalur di server (Jika dihilangkan: direktori root situs)
 
-nama file - mendefinisikan nama dokumen atau sumber daya
+- nama file - mendefinisikan nama dokumen atau sumber daya
 
 ## Skema URL Umum
 
