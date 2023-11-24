@@ -81,10 +81,12 @@ Pertama, buat bookmark dengan idatribut:
 <  h2 id="C4"  >Chapter 4<  /h2  >
 ```
 Atau, tambahkan link ke bookmark ("Lompat ke Bab 4"), dari halaman lain:
+```sh
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
+```
 Menggunakan Atribut id dalam JavaScript
 Atribut idjuga dapat digunakan oleh JavaScript untuk melakukan beberapa tugas untuk elemen tertentu.
-JavaScript dapat mengakses elemen dengan id tertentu dengan getElementById()metode:
+JavaScript dapat mengakses elemen dengan id tertentu dengan `getElementById()`metode:
 Contoh : 
 ### Gunakan atribut id untuk memanipulasi teks dengan JavaScript:
 ```sh
@@ -100,4 +102,4 @@ Nilai atribut id harus unik dalam dokumen HTML
 Atribut ini id digunakan oleh CSS dan JavaScript untuk menata/memilih elemen tertentu
 Nilai atribut id peka huruf besar-kecil
 Atribut ini id juga digunakan untuk membuat bookmark HTML
-JavaScript dapat mengakses elemen dengan id tertentu dengan getElementById() metode ini
+JavaScript dapat mengakses elemen dengan id tertentu dengan `getElementById()` metode ini
