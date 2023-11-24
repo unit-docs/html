@@ -10,7 +10,7 @@ Tabel di bawah ini mencantumkan semua atribut HTML dan elemen apa saja yang dapa
 
 | Attribut | Gunakan Untuk | Deskripsi |
 | ----------- | ----------- | ----------- |
-| Header | Title | Title |
+| accept | Title | Title |
 | Paragraph | Text | Text |
 | Header | Title | Title |
 | Paragraph | Text | Text |
