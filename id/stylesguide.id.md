@@ -14,13 +14,13 @@ Mencampur nama huruf besar dan kecil terlihat buruk
 Pengembang biasanya menggunakan nama huruf kecil
 Huruf kecil terlihat lebih bersih
 Huruf kecil lebih mudah untuk ditulis
-## Good:
+### Good:
 ```sh
 <body>
 <p>This is a paragraph.</p>
 </body>
 ```
-## Bad:
+### Bad:
 ```sh
 <BODY>
 <P>This is a paragraph.</P>
@@ -29,14 +29,14 @@ Huruf kecil lebih mudah untuk ditulis
 ## Tutup Semua Elemen HTML
 Dalam HTML, Anda tidak harus menutup semua elemen (misalnya elemen <p>).
 Namun, kami sangat menyarankan untuk menutup semua elemen HTML, seperti ini:
-## Good:
+### Good:
 ```sh
 <section>
   <p>This is a paragraph.</p>
   <p>This is a paragraph.</p>
 </section>
 ```
-## Bad:
+### Bad:
 ```sh
 <section>
   <p>This is a paragraph.
@@ -50,11 +50,11 @@ Mencampur nama huruf besar dan kecil terlihat buruk
 Pengembang biasanya menggunakan nama huruf kecil
 Huruf kecil terlihat lebih bersih
 Huruf kecil lebih mudah untuk ditulis
-## Good:
+### Good:
 ```sh
 <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 ```
-## Bad:
+### Bad:
 ```sh
 <a HREF="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 ```
@@ -64,15 +64,15 @@ Namun, kami menyarankan untuk mengutip nilai atribut, karena:
 Pengembang biasanya mengutip nilai atribut
 Nilai yang dikutip lebih mudah dibaca
 Anda HARUS menggunakan tanda kutip jika nilainya mengandung spasi
-## Good:
+### Good:
 ```sh
 <table class="striped">
 ```
-## Bad:
+### Bad:
 ```sh
 <table class=striped>
 ```
-## Very bad:
+### Very bad:
 Ini tidak akan berhasil, karena nilainya mengandung spasi:
 ```sh
 <table class=table striped>
@@ -80,21 +80,21 @@ Ini tidak akan berhasil, karena nilainya mengandung spasi:
 ## Selalu Tentukan alt, lebar, dan tinggi untuk Gambar
 Selalu tentukan atribut alt untuk gambar. Atribut ini penting jika gambar karena alasan tertentu tidak dapat ditampilkan.
 Selain itu, selalu tentukan lebar dan tinggi gambar. Hal ini mengurangi kedipan, karena browser dapat menyediakan ruang untuk gambar sebelum memuat.
-## Good:
+### Good:
 ```sh
 <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">
 ```
-## Bad:
+### Bad:
 ```sh
 <img src="html5.gif">
 ```
 ## Spasi dan Tanda Sama Dengan
 HTML mengizinkan spasi di sekitar tanda sama dengan. Namun tanpa ruang lebih mudah dibaca dan mengelompokkan entitas dengan lebih baik.
-## Good:
+### Good:
 ```sh
 <link rel="stylesheet" href="styles.css">
 ```
-## Bad:
+### Bad:
 ```sh
 <link rel = "stylesheet" href = "styles.css">
 ```
@@ -105,7 +105,7 @@ Cobalah untuk menghindari baris kode yang terlalu panjang.
 Jangan menambahkan baris kosong, spasi, atau lekukan tanpa alasan.
 Agar mudah dibaca, tambahkan baris kosong untuk memisahkan blok kode yang besar atau logis.
 Agar mudah dibaca, tambahkan dua spasi indentasi. Jangan gunakan tombol tab.
-## Good:
+### Good:
 ```sh
 <body>
 
@@ -122,7 +122,7 @@ Agar mudah dibaca, tambahkan dua spasi indentasi. Jangan gunakan tombol tab.
 
 </body>
 ```
-## Bad:
+### Bad:
 ```sh
 <body>
 <h1>Famous Cities</h1>
@@ -131,7 +131,7 @@ Agar mudah dibaca, tambahkan dua spasi indentasi. Jangan gunakan tombol tab.
 <h2>Paris</h2><p>Paris is the capital of France. The Paris area is one of the largest population centers in Europe.</p>
 </body>
 ```
-## Good Table Example:
+### Good Table Example:
 ```sh
 <table>
   <tr>
@@ -148,7 +148,7 @@ Agar mudah dibaca, tambahkan dua spasi indentasi. Jangan gunakan tombol tab.
   </tr>
 </table>
 ```
-## Good List Example:
+### Good List Example:
 ```sh
 <ul>
   <li>London</li>
@@ -156,10 +156,10 @@ Agar mudah dibaca, tambahkan dua spasi indentasi. Jangan gunakan tombol tab.
   <li>Tokyo</li>
 </ul>
 ```
-## Jangan Pernah Lewati Elemen <title>
-Elemen <title> diperlukan dalam HTML.
+## Jangan Pernah Lewati Elemen `<title>`
+Elemen `<title>` diperlukan dalam HTML.
 Isi judul halaman sangat penting untuk optimasi mesin pencari (SEO)! Judul halaman digunakan oleh algoritma mesin pencari untuk menentukan urutan ketika mencantumkan halaman dalam hasil pencarian.
-Elemen <judul>:
+Elemen `<title>`:
 mendefinisikan judul di toolbar browser
 memberikan judul untuk halaman ketika ditambahkan ke favorit
 menampilkan judul halaman di hasil mesin pencari
@@ -167,8 +167,8 @@ Jadi, usahakan untuk membuat judul seakurat dan bermakna mungkin:
 ```sh
 <title>HTML Style Guide and Coding Conventions</title>
 ```
-## Menghilangkan <html> dan <body>?
-Halaman HTML akan divalidasi tanpa tag <html> dan <body>:
+## Menghilangkan `<html>` dan `<body>`?
+Halaman HTML akan divalidasi tanpa tag `<html>` dan `<body>`:
 Contoh : 
 ```sh
 <!DOCTYPE html>
@@ -179,12 +179,12 @@ Contoh :
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 ```
-Namun, kami sangat menyarankan untuk selalu menambahkan tag <html> dan <body>!
-Menghilangkan <body> dapat menghasilkan kesalahan pada browser lama.
-Menghilangkan <html> dan <body> juga dapat menyebabkan crash pada perangkat lunak DOM dan XML.
-## Menghilangkan <head>?
-Tag HTML <head> juga dapat dihilangkan.
-Browser akan menambahkan semua elemen sebelum <body>, ke elemen <head> default.
+Namun, kami sangat menyarankan untuk selalu menambahkan tag `<html>` dan `<body>`!
+Menghilangkan `<body>` dapat menghasilkan kesalahan pada browser lama.
+Menghilangkan `<html>` dan `<body>` juga dapat menyebabkan crash pada perangkat lunak DOM dan XML.
+## Menghilangkan `<head>`?
+Tag HTML `<head>` juga dapat dihilangkan.
+Browser akan menambahkan semua elemen sebelum `<body>`, ke elemen `<head>` default.
 Contoh : 
 ```sh
 <!DOCTYPE html>
@@ -211,7 +211,7 @@ Dalam HTML, menutup elemen kosong adalah opsional.
 ```
 Jika Anda mengharapkan perangkat lunak XML/XHTML mengakses halaman Anda, pertahankan garis miring penutup (/), karena ini diperlukan dalam XML dan XHTML.
 ## Tambahkan Atribut lang
-Anda harus selalu menyertakan atribut lang di dalam tag <html>, untuk mendeklarasikan bahasa halaman Web. Ini dimaksudkan untuk membantu mesin pencari dan browser.
+Anda harus selalu menyertakan atribut lang di dalam tag `<html>`, untuk mendeklarasikan bahasa halaman Web. Ini dimaksudkan untuk membantu mesin pencari dan browser.
 Contoh : 
 ```sh
 <!DOCTYPE html>
@@ -228,7 +228,7 @@ Contoh :
 </html>
 ```
 ## Data Meta
-Untuk memastikan interpretasi yang tepat dan pengindeksan mesin pencari yang benar, bahasa dan pengkodean karakter <meta charset="charset"> harus didefinisikan sedini mungkin dalam dokumen HTML:
+Untuk memastikan interpretasi yang tepat dan pengindeksan mesin pencari yang benar, bahasa dan pengkodean karakter `<meta charset="charset">` harus didefinisikan sedini mungkin dalam dokumen HTML:
 ```sh
 <!DOCTYPE html>
 <html lang="en-us">
@@ -239,12 +239,12 @@ Untuk memastikan interpretasi yang tepat dan pengindeksan mesin pencari yang ben
 ```
 ## Mengatur Area Pandang
 Area pandang adalah area halaman web yang terlihat oleh pengguna. Ukurannya berbeda-beda tergantung perangkatnya - ukurannya akan lebih kecil di ponsel dibandingkan di layar komputer.
-Anda harus menyertakan elemen <meta> berikut di semua halaman web Anda:
+Anda harus menyertakan elemen `<meta>` berikut di semua halaman web Anda:
 ```sh
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 Ini memberikan instruksi kepada browser tentang cara mengontrol dimensi dan penskalaan halaman.
-Bagian width=device-width mengatur lebar halaman agar mengikuti lebar layar perangkat (yang bervariasi tergantung pada perangkat).
+Bagian `width=device-width` mengatur lebar halaman agar mengikuti lebar layar perangkat (yang bervariasi tergantung pada perangkat).
 Bagian skala awal=1.0 mengatur tingkat zoom awal saat halaman pertama kali dimuat oleh browser.
 Berikut adalah contoh halaman web tanpa meta tag viewport, dan halaman web yang sama dengan meta tag viewport:
 ## Komentar HTML
