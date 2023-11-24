@@ -5,7 +5,7 @@ draft: true
 ---
 
 # Entitas HTML
-### Entitas Karakter HTML
+## Entitas Karakter HTML
 Beberapa karakter dicadangkan dalam HTML.
 
 Jika Anda menggunakan tanda kurang dari (<) atau lebih besar dari (>) dalam teks HTML, browser mungkin mencampurkannya dengan tag.
@@ -21,7 +21,7 @@ Nomor entitas terlihat seperti ini:
 
 Untuk menampilkan tanda kurang dari (<) kita harus menulis: `&lt;` atau & `#60;`
 
-### Ruang yang Tidak Melanggar
+## Ruang yang Tidak Melanggar
 
 Entitas HTML yang umum digunakan adalah ruang tanpa putus: `&nbsp;`
 
@@ -43,7 +43,7 @@ Jika Anda menulis 10 spasi dalam teks Anda, browser akan menghapus 9 spasi. Untu
 
 ![entitas](https://github.com/uin-unit/docs-html/blob/main/images/entitas1.png)
 
-### Menggabungkan Tanda Diakritik
+## Menggabungkan Tanda Diakritik
 Tanda diakritik adalah "mesin terbang" yang ditambahkan pada sebuah surat.
 
 Beberapa tanda diakritik, seperti tanda berat (̀) dan lancip (́) disebut aksen.
