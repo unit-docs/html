@@ -8,7 +8,7 @@ draft: true
 
 Cara termudah untuk memutar video dalam HTML adalah dengan menggunakan YouTube.
 
-Berjuang dengan Format Video? 
+Kesulitan dengan Format Video? 
 
 Mengonversi video ke format lain bisa jadi sulit dan memakan waktu.
 
