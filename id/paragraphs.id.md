@@ -49,7 +49,7 @@ ignores it.
 </p>
 ```
 
-## Aturan Horisontal HTML
+## Aturan Horizontal HTML
 
 Tag `<hr>` mendefinisikan jeda tematik di halaman HTML, dan paling sering ditampilkan sebagai aturan horizontal.
 
